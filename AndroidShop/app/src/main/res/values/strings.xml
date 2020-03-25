@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Shop</string>
+    <string name="cart">My shopping cart</string>
+    <string name="storage">Storage Data</string>
+    <string name="options">Options</string>
+    <string name="settings">Settings</string>
+    <string name="exit">Exit</string>
+</resources>
