@@ -4,6 +4,8 @@
         android:title="@string/cart" />
     <item android:id="@+id/storage"
         android:title="@string/storage" />
+    <item android:id="@+id/sensors"
+        android:title="@string/sensors" />
     <item android:id="@+id/options"
         android:title="@string/options" />
     <item android:id="@+id/settings"

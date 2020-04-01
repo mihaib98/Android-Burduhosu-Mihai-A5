@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
     TextView textView;
     String[] listItem = {"SmartCards","Android","Calcul Numeric","Grafica pe Calculator","Psihologie"};
     String bundleItem = "";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -74,6 +73,10 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.storage:
                 intent = new Intent(this, Storage.class);
+                startActivity(intent);
+                break;
+            case R.id.sensors:
+                intent = new Intent(this, SensorActivity.class);
                 startActivity(intent);
                 break;
             case R.id.options:
